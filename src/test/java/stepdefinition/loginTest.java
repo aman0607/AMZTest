@@ -36,9 +36,9 @@ public class loginTest extends browserSelect{
         @When("^User enters valid email and password$")
         public void user_enters_valid_email_and_password() throws IOException {
 
-            hpl.emailID.sendKeys("ropar0607@gmail.com");
+            hpl.emailID.sendKeys("xxx");
             hpl.proceed.click();
-            hpl.password.sendKeys("bhindrawala1");
+            hpl.password.sendKeys("xxx");
             hpl.submit.click();
 
         }
