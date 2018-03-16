@@ -29,19 +29,19 @@ public class browserSelect {
 
         } else if (browserName.equals("firefox")) {
 
-            System.setProperty("webdriver.gecko.driver", "C:\\Users\\Aman\\Documents\\Selenium\\Drivers\\geckodriver");
+            System.setProperty("webdriver.gecko.driver", "C:\\Users\\Aman\\Documents\\Selenium\\Drivers\\geckodriver.exe");
             driver = new FirefoxDriver();
 
 
         } else if (browserName.equals("InternetExplorer")) {
 
-            System.setProperty("webdriver.gecko.driver", "C:\\Users\\Aman\\Documents\\Selenium\\Drivers\\IEDriverServe");
+            System.setProperty("webdriver.ie.driver", "C:\\Users\\Aman\\Documents\\Selenium\\Drivers\\IEDriverServer.exe");
             driver = new InternetExplorerDriver();
 
         }
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+        driver.manage().window().maximize();
 
         return driver;
 

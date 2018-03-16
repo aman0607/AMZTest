@@ -15,11 +15,11 @@ public class homepageLogin {
 
     }
 
-    @FindBy(xpath = "//*[@id='nav-link-accountList']")
+    @FindBy( )
     public WebElement signIn;
 
-    @FindBy(xpath = "/html/body/div[1]/header/div/div[1]/div[4]/div[3]/div[2]/div/div[1]/div/a/span")
-    public WebElement hoverSignIn;
+//    @FindBy(xpath = "/html/body/div[1]/header/div/div[1]/div[4]/div[3]/div[2]/div/div[1]/div/a/span")
+//    public WebElement hoverSignIn;
 
     @FindBy(xpath = "//*[@id='continue']")
     public WebElement proceed;

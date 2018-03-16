@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
             monochrome = true,
             features = "C:\\Users\\Aman\\IdeaProjects\\AMZTest\\src\\main\\java\\cucumberConfig\\AmazonApplication.feature"
-            ,glue     = {"stepdefinition"}
+            ,glue     = {"testCases"}
             ,tags = {"@RegressionTest"}
 
             )
