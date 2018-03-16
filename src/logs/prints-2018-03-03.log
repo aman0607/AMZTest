@@ -1,0 +1,8 @@
+22:10:39.384 [main] INFO  testCases.loginTest - entering email address
+22:10:39.580 [main] INFO  testCases.loginTest - Clicking on next
+22:10:40.301 [main] INFO  testCases.loginTest - Entering the password
+22:10:40.525 [main] INFO  testCases.loginTest - Clicking on submit
+22:10:44.870 [main] INFO  testCases.loginTest - Login successful
+22:10:50.501 [main] INFO  testCases.loginTest - Opening the main webpage
+22:10:53.650 [main] INFO  testCases.loginTest - Clicking on sign in
+22:10:54.529 [main] INFO  testCases.loginTest - entering email address
