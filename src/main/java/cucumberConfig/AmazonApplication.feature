@@ -14,23 +14,23 @@ Feature: Amazon shopping cart
      And   Selects the product
      Then  Adds the product to the cart
 
-  @RegressionTest
-   Scenario: User selects type of shipping
-     Given User is on the checkout page
-     When  User clicks on type of checkout
-     Then  Shows the shipping method
-
-  @RegressionTest
-  Scenario: User selects payment method
-    Given  User is on the checkout page
-    When   User clicks on payment method
-    Then   User is displayed the payment options
-    And    User selects the payment option
-
-  @RegressionTest
-  Scenario: User submits the order
-    Given  User is on the checkout page
-    When   User clicks on submit
-    Then   Confirmation page is displayed
+#  @RegressionTest
+#   Scenario: User selects type of shipping
+#     Given User is on the checkout page
+#     When  User clicks on type of checkout
+#     Then  Shows the shipping method
+#
+#  @RegressionTest
+#  Scenario: User selects payment method
+#    Given  User is on the checkout page
+#    When   User clicks on payment method
+#    Then   User is displayed the payment options
+#    And    User selects the payment option
+#
+#  @RegressionTest
+#  Scenario: User submits the order
+#    Given  User is on the checkout page
+#    When   User clicks on submit
+#    Then   Confirmation page is displayed
 
 

@@ -37,11 +37,11 @@ public class searchTest extends browserSelect {
         hpl.signIn.click();
 
         log.info("entering email address");
-        hpl.emailID.sendKeys("xxx");
+        hpl.emailID.sendKeys("ropar0607@gmail.com");
         log.info("Clicking on next");
         hpl.proceed.click();
         log.info("Entering the password");
-        hpl.password.sendKeys("xxx");
+        hpl.password.sendKeys("bhindrawala1");
         log.info("Clicking on submit");
         hpl.submit.click();
 
@@ -49,6 +49,7 @@ public class searchTest extends browserSelect {
         if(driver.getCurrentUrl().equals("https://www.amazon.com/ref=nav_logo")){
             System.out.println("Search page opened successfully");
         }
+
 
     }
 

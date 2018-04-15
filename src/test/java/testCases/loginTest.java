@@ -33,21 +33,17 @@ public class loginTest extends browserSelect {
         log.info("Clicking on sign in");
         hpl.signIn.click();
 
-//            Actions action = new Actions(driver);
-//            action.moveToElement(hpl.signIn).click(hpl.hoverSignIn).build().perform();
-
-
     }
 
     @When("^User enters valid email and password$")
     public void user_enters_valid_email_and_password() throws IOException {
 
         log.info("entering email address");
-        hpl.emailID.sendKeys("ropar0607@gmail.com");
+        hpl.emailID.sendKeys("xxx");
         log.info("Clicking on next");
         hpl.proceed.click();
         log.info("Entering the password");
-        hpl.password.sendKeys("bhindrawala1");
+        hpl.password.sendKeys("xxx");
         log.info("Clicking on submit");
         hpl.submit.click();
 
@@ -65,10 +61,6 @@ public class loginTest extends browserSelect {
         driver.close();
 
     }
-
-
-
-
 
 }
 
